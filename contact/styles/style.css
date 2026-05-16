@@ -1,8 +1,6 @@
 h1{
-    font:Inter ;
     font-size: 48px;
     font-weight: 700 ;
-    font-style: Bold;
     color: #30CBC2;
     margin-left: 52px;
 }
@@ -14,10 +12,8 @@ h1{
 a{
     text-decoration: none;
     color:#8D81FF;
-    font:FiraGO ;
     font-size: 26px;
     font-weight: 700 ;
-    font-style: Bold;
 }
 #color{
     color: #4E6FAE;
@@ -58,9 +54,7 @@ a{
 .address{
     font-weight: 400;
     font-size: 20px;
-    font: Helvetica Neue LT GEO;
     color:#3F4145;
-    font-style:55 Roman;
 }
 .light{
    color:#7E8898 ; 
@@ -71,10 +65,9 @@ a{
 h2{
     margin-top: 92px;
     color: #4E6FAE;
-    font: Helvetica Neue;
     font-weight: 700;
     font-size: 36px;
-    font-style:Bold;
+    font-family: "BPG Nostalgia", sans-serif;
 }
 .map{
     width: 944px;

@@ -1,8 +1,6 @@
 h1{
-    font:Inter ;
     font-size: 48px;
     font-weight: 700 ;
-    font-style: Bold;
     color: #30CBC2;
     margin-left: 52px;
 }
@@ -13,11 +11,9 @@ h1{
 }
 a{
     text-decoration: none;
-    color:#8D81FF;
-    font:FiraGO ;
-    font-size: 26px;
+    color:#8D81FF;   
+    font-size: 26px; 
     font-weight: 700 ;
-    font-style: Bold;
 }
 #color{
     color: #4E6FAE;
@@ -29,6 +25,7 @@ a{
 }
 h3{
     color: #4E6FAE;
+    font-family: "BPG Nostalgia", sans-serif;
 }
 #line{
     width: 2px;
@@ -57,14 +54,13 @@ h3{
     margin-right: 52px;
 }
 h5{
-    font: Helvetica Neue LT GEO;
     font-weight: 400;
-    font-style: 55 Roman;
     font-size: 20px;
     color: #3F4145;
     margin-top: 26px;
     margin-left: 23px;
     margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
 }
 .icon{
     width: 77px;
@@ -74,13 +70,12 @@ h5{
     margin-right: 37px;
 }
 p{
-    font: Helvetica Neue LT GEO;
     font-weight: 400;
     font-size: 16px;
     color:#7E8898 ;
-    font-style:55 Roman;
     margin-right: 15px;
     overflow: hidden
+    font-family: "Roboto", sans-serif;
 }
 
 #facebook{
