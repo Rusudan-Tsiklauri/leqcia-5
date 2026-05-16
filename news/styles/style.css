@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ლექცია 3</title>
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+<body>
+	<div class="menu">
+		<h1>&lt;/HTML&gt;</h1>
+	    <a href="../index.html">მთავარი</a>
+	    <a id="color">სიახლეები</a>
+	    <a href="../contact/index.html">კონტაქტი</a>
+	</div>
+	<img id="html" src="./images/html.png">
+	<div class="news">
+		<h3>სიახლეები</h3><div id="line"></div><h3>იხილეთ დეტალურად ყველა სიახლე</h3>
+	</div>
+	<div class="parent">
+		<div class="child first">
+			<h5>ვებგვერდების დეველოპერები</h5>
+			<img class="icon" src="./images/icon-2.png">
+			<p>არსებობს წარმოდგენა, რომ ვებგვერდის აწყობა მხოლოდ ტექნიკური განათლების მქონე ადამიანს შეუძლია ისწავლოს. თუმცა, რაც დრო გადის, საპირისპირო სურათს ვხედავთ</p>
+		</div>
+		<div class="child"><h5>ვებგვერდების მისამართები</h5>
+			<img class="icon" src="./images/icon-1.png">
+			<p>არსებობს წარმოდგენა, რომ ვებგვერდის აწყობა მხოლოდ ტექნიკური განათლების მქონე ადამიანს შეუძლია ისწავლოს. თუმცა, რაც დრო გადის, საპირისპირო სურათს ვხედავთ</p>
+		</div>
+	</div>
+
+	<div class="main">
+		<img id="facebook" src="./images/facebook.png">
+	    <div id="line"></div>
+	    <img id="youtube" src="./images/youtube.png">
+	</div>
