@@ -1,0 +1,97 @@
+h1{
+    font:Inter ;
+    font-size: 48px;
+    font-weight: 700 ;
+    font-style: Bold;
+    color: #30CBC2;
+    margin-left: 52px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color:#8D81FF;
+    font:FiraGO ;
+    font-size: 26px;
+    font-weight: 700 ;
+    font-style: Bold;
+}
+.color{
+    color: #4E6FAE;
+}
+
+#facebook{
+    width: 50px;
+    height: 50px;
+    margin-left: 52px;
+    margin-right: 0 !important;
+}
+#line{
+    width: 2px;
+    height: 48px;
+    background-color: #5012D5;
+    display: inline-block;
+    margin: 0 41px;
+
+}
+
+#youtube{
+    width: 71px;
+    height: 49px;
+    margin-right: 0 !important;
+}
+.main {
+    display: flex;
+    align-items: center; 
+}
+
+article{
+    margin-left: 52px;
+    overflow: auto; 
+    margin-bottom: 155px;
+
+}
+
+h5{
+    font-size:20px ;
+    font-weight: 700;
+    color: #4E6FAE;
+    margin-top: 5px;
+}
+
+.content{
+    margin-top: 13px;
+}
+.month{
+    font-size: 24px;
+    font-weight: 400;
+    color: #8D81FF ;
+    font-style:16px ;
+    
+}
+.date{
+    width: 50px;
+    height: 50px;
+    background-color: #5012D5 ;
+    color: #84FF81;
+    font-size: 24px ;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+.text{
+    font:FiraGO;
+    font-weight: 400;
+    font-size:16px ;
+    color: #4E6FAE;
+}
+
+img{
+    margin-right: 66px;
+}
+.side{
+    float: left;
+}
