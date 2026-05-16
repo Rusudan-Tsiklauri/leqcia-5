@@ -1,34 +1,110 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>ლექცია 3</title>
-	<link rel="stylesheet" type="text/css" href="./styles/style.css">
-</head>
-<body>
-	<div class="menu">
-		<h1>&lt;/HTML&gt;</h1>
-	    <a href="../index.html">მთავარი</a>
-	    <a id="color">სიახლეები</a>
-	    <a href="../contact/index.html">კონტაქტი</a>
-	</div>
-	<img id="html" src="./images/html.png">
-	<div class="news">
-		<h3>სიახლეები</h3><div id="line"></div><h3>იხილეთ დეტალურად ყველა სიახლე</h3>
-	</div>
-	<div class="parent">
-		<div class="child first">
-			<h5>ვებგვერდების დეველოპერები</h5>
-			<img class="icon" src="./images/icon-2.png">
-			<p>არსებობს წარმოდგენა, რომ ვებგვერდის აწყობა მხოლოდ ტექნიკური განათლების მქონე ადამიანს შეუძლია ისწავლოს. თუმცა, რაც დრო გადის, საპირისპირო სურათს ვხედავთ</p>
-		</div>
-		<div class="child"><h5>ვებგვერდების მისამართები</h5>
-			<img class="icon" src="./images/icon-1.png">
-			<p>არსებობს წარმოდგენა, რომ ვებგვერდის აწყობა მხოლოდ ტექნიკური განათლების მქონე ადამიანს შეუძლია ისწავლოს. თუმცა, რაც დრო გადის, საპირისპირო სურათს ვხედავთ</p>
-		</div>
-	</div>
+h1{
+    font:Inter ;
+    font-size: 48px;
+    font-weight: 700 ;
+    font-style: Bold;
+    color: #30CBC2;
+    margin-left: 52px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color:#8D81FF;
+    font:FiraGO ;
+    font-size: 26px;
+    font-weight: 700 ;
+    font-style: Bold;
+}
+#color{
+    color: #4E6FAE;
+}
+#html{
+    margin-left: 194px;
+    width: 1052px;
+    height: 462px;
+}
+h3{
+    color: #4E6FAE;
+}
+#line{
+    width: 2px;
+    height: 48px;
+    background-color: #5012D5;
+    margin: 0 18px;
+}
+.news{
+    display: flex;       
+    align-items: center;
+    margin-left: 194px;
+    margin-top: 120px;
+}
+.parent{
+    margin-left: 194px;
+    margin-top: 26px;
+}
+.child{
+    width: 500px;
+    height: 192px;
+    background-color:#E7E7E7 ;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.first{
+    margin-right: 52px;
+}
+h5{
+    font: Helvetica Neue LT GEO;
+    font-weight: 400;
+    font-style: 55 Roman;
+    font-size: 20px;
+    color: #3F4145;
+    margin-top: 26px;
+    margin-left: 23px;
+    margin-bottom: 20px;
+}
+.icon{
+    width: 77px;
+    height: 77px;
+    float: left;
+    margin-left: 36px;
+    margin-right: 37px;
+}
+p{
+    font: Helvetica Neue LT GEO;
+    font-weight: 400;
+    font-size: 16px;
+    color:#7E8898 ;
+    font-style:55 Roman;
+    margin-right: 15px;
+    overflow: hidden
+}
 
-	<div class="main">
-		<img id="facebook" src="./images/facebook.png">
-	    <div id="line"></div>
-	    <img id="youtube" src="./images/youtube.png">
-	</div>
+#facebook{
+    width: 50px;
+    height: 50px;
+    margin-left: 194px;
+    margin-right: 0 !important;
+}
+#line{
+    width: 2px;
+    height: 48px;
+    background-color: #5012D5;
+    display: inline-block;
+    margin: 0 41px;
+
+}
+
+#youtube{
+    width: 71px;
+    height: 49px;
+    margin-right: 0 !important;
+}
+.main {
+    display: flex;
+    align-items: center; 
+    margin-top: 91px;
+}
