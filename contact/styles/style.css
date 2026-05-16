@@ -1,0 +1,86 @@
+h1{
+    font:Inter ;
+    font-size: 48px;
+    font-weight: 700 ;
+    font-style: Bold;
+    color: #30CBC2;
+    margin-left: 52px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color:#8D81FF;
+    font:FiraGO ;
+    font-size: 26px;
+    font-weight: 700 ;
+    font-style: Bold;
+}
+#color{
+    color: #4E6FAE;
+}
+
+#facebook{
+    width: 50px;
+    height: 50px;
+    margin-left: 52px;
+    margin-right: 0 !important;
+}
+.main{
+    margin-top: 104px;
+}
+#line{
+    width: 2px;
+    height: 48px;
+    background-color: #5012D5;
+    display: inline-block;
+    margin: 0 41px;
+
+}
+
+#youtube{
+    width: 71px;
+    height: 49px;
+    margin-right: 0 !important;
+}
+
+ .contact{
+    width: 1660px;
+    height: 735px;
+    background-color:#E7E7E7 ;
+    display: flex;             
+    align-items: flex-start;   
+    justify-content: flex-start;
+}
+.address{
+    font-weight: 400;
+    font-size: 20px;
+    font: Helvetica Neue LT GEO;
+    color:#3F4145;
+    font-style:55 Roman;
+}
+.light{
+   color:#7E8898 ; 
+}
+.margin{
+    margin-left: 162px;
+}
+h2{
+    margin-top: 92px;
+    color: #4E6FAE;
+    font: Helvetica Neue;
+    font-weight: 700;
+    font-size: 36px;
+    font-style:Bold;
+}
+.map{
+    width: 944px;
+    height: 549px;
+    margin-top: 93px;
+    margin-bottom: 93px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
